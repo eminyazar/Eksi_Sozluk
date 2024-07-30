@@ -6,7 +6,7 @@ import random
 browser = webdriver.Chrome()
 url = input("Enter your URL: ")
 #url = "https://eksisozluk.com/mustafa-kemal-ataturk--34712?p=" örnek olarak bu url i kullanabilirsiniz.
-#url'in sonu örnekte olduğu gibi eşitir ile bitmeli yanisayfa sayısının değişebeleceği şekilde ayarlanmalıdır.
+#url'in sonu örnekte olduğu gibi eşitir ile bitmeli yani sayfa sayısının değişebeleceği şekilde ayarlanmalıdır.
 
 pagerange = int(input("Enter the page range: "))
 pageCount = 1
